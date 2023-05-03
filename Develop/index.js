@@ -47,6 +47,11 @@ const promptUser = () => {
     },
     {
       type: 'input',
+      name: 'license',
+      message: 'Add the license information?',
+    },
+    {
+      type: 'input',
       name: 'badges',
       message: 'What badges would you like to display?',
     },
@@ -82,7 +87,7 @@ const promptUser = () => {
 };
 
 
-const generateMD = ({ name, motivation, why, problem, learn, address, credits, badges, stack, contact, github, email, linkedin }) =>
+const generateMD = ({ name, motivation, why, problem, learn, address, credits, license, badges, stack, contact, github, email, linkedin }) =>
 
 `# ${name}
 
@@ -93,31 +98,28 @@ ${problem}.
 ${learn}.
 
 ## Installation
-
 ${address}
 
 ## Usage
 
 ![alt text](assets/screenshot.png)
 
-## Credits and Colaborators
-
+## Credits
 ${credits}
 
 ## License
-
+${license}
 See MIT license
 
 ## Badges
-
 ${badges}
-// ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
 ## Features
 ${stack}
 
 ## How to Contribute
-Prefered method of contact: ${contact}
+Prefered method of contact: ${contact}.
 Link to source:
 ${github}
 Contact author:
