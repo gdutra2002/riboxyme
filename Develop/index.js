@@ -92,38 +92,40 @@ const generateMD = ({ name, motivation, why, problem, learn, address, credits, l
 `# ${name}
 
 ## Description
-${motivation}.
-${why}.
-${problem}.
-${learn}.
+* ${motivation}.
+* ${why}.
+* ${problem}.
+* ${learn}.
 
 ## Installation
 ${address}
 
 ## Usage
 
-![alt text](assets/screenshot.png)
+![cat crch](develop/utils/screenshot.png)
 
 ## Credits
 ${credits}
 
 ## License
-${license}
+${license}   <br>
 See MIT license
+
 
 ## Badges
 ${badges}
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+![Github license](https://img.shields.io/badge/license-MIT-pink.svg)
 
 ## Features
 ${stack}
 
 ## How to Contribute
-Prefered method of contact: ${contact}.
+Prefered method of contact: ${contact}.  <br>
 Link to source:
-${github}
+${github}    <br>
 Contact author:
-${email}
+${email}   <br>
 Profile
 ${linkedin}`;
 
