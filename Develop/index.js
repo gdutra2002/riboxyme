@@ -53,14 +53,14 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'badges',
-      message: 'What badges would you like to display?',
+      message: 'Enter your badge URL?',
     },
     {
       type: 'checkbox',
       message: 'What main languages does the app use?',
       name: 'stack',
-      choices: ['HTML', 'CSS', 'JavaScript', 'MySQL', 
-            'MongoDB','Python' , 'Handelbars' , 'React'],
+      choices: ['HTML', 'CSS', 'github', 'npm inquery', 'terminal', 'APIs', 'jQuery','JavaScript', 'MySQL', 
+              'Node.js', 'Express.js', 'MERN', 'State','MongoDB','Python', 'Fetch', 'Handelbars' , 'React'],
     },
     {
       type: 'list',
