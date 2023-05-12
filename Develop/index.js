@@ -1,11 +1,11 @@
-// TODO: Include packages needed for this application
+// Packages needed for this application
 
 const inquirer = require('inquirer');
 // const fs = require('fs');
 
 const { writeFile } = require('fs').promises;
 
-// TODO: Create an array of questions for user input
+// An array of questions for user input
 // const questions = [];
 
 const promptUser = () => {
@@ -86,21 +86,25 @@ const promptUser = () => {
   ])
 };
 
-
+//  Questions are inserted into the proper location of the readme.MD script.
 const generateMD = ({ name, motivation, why, problem, learn, address, credits, license, badges, stack, contact, github, email, linkedin }) =>
 
 `# ${name}
 
-## Description
+## Description:  
 * ${motivation}.
 * ${why}.
 * ${problem}.
 * ${learn}.
+* 
 
 ## Installation
+
 ${address}
 
 ## Usage
+>
+> **Note**:
 
 ![cat crch](develop/utils/screenshot.png)
 
@@ -117,8 +121,10 @@ ${badges}
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 ![Github license](https://img.shields.io/badge/license-MIT-pink.svg)
 
-## Features
-${stack}
+### Features
+>
+>* ${stack}
+>
 
 ## How to Contribute
 Prefered method of contact: ${contact}.  <br>
@@ -127,10 +133,15 @@ ${github}    <br>
 Contact author:
 ${email}   <br>
 Profile
-${linkedin}`;
+${linkedin}
+
+---
+© 2023 MRB Confidential and Proprietary. All Rights Reserved.
+
+`;
 
 
-// TODO: Create a function to write README file
+// An alternate function to write README file using filestore instead of the promise method.
 // function writeToFile(fileName, data) {}
 
 // .then((data) => {
@@ -142,7 +153,7 @@ ${linkedin}`;
 //     });
   
 
-// TODO: Create a function to initialize app
+// A function to initialize app using fs or promise.
 // function init() {
       const init =() => {
 
