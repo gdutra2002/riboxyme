@@ -13,9 +13,13 @@ git@github.com:gdutra2002/riboxyme.git
 
 ## Usage
 >
-> **Note**:
+> **Note**:  See the demo video on usage. 
+> 1)Open a terminal in VS code
+> 2)npm install
+> 3)node index.js
+> 4)Answer the questions to generate your readme.md file
 
-(https://drive.google.com/file/d/17czNvtXxvmShI9__y5GftnpbPrOXSqPX/view)
+https://drive.google.com/file/d/17czNvtXxvmShI9__y5GftnpbPrOXSqPX/view
 
 ## Credits
 UC Davis coding bootcamp, and human creativity!
