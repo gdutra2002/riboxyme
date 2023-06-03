@@ -15,7 +15,7 @@ git@github.com:gdutra2002/riboxyme.git
 >
 > **Note**:
 
-![cat crch](develop/utils/screenshot.png)
+(https://drive.google.com/file/d/17czNvtXxvmShI9__y5GftnpbPrOXSqPX/view)
 
 ## Credits
 UC Davis coding bootcamp, and human creativity!
