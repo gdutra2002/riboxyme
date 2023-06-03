@@ -1,39 +1,49 @@
-# Thispage
+# Riboxyme
 
-## Description
-*  fun.
-* homework.
-* to generate a md file.
-* lots of npm.
+## Description:  
+* When creating a git repository, one of the first tasks is to develop a readme file that covers the scope and usage of the applicaiton..
+* By using the Riboxyme README.MD generator app, a user will be able to answer a few questions within the terminal of VScode to quickly outline the project with a presentable document..
+* With standard methods of development, github push/pull, VScode, npm install, the user will run thru focusing prompts that result in the creation of a concise markdown file..
+* To get going on your project, consider using this readme.md generator as a warm up exercise to quickly develope your application to a deployable status..
+* 
 
 ## Installation
-url.rul
+
+git@github.com:gdutra2002/riboxyme.git
 
 ## Usage
+>
+> **Note**:
 
 ![cat crch](develop/utils/screenshot.png)
 
 ## Credits
-Ben
+UC Davis coding bootcamp, and human creativity!
 
 ## License
- mit   <br>
+https://github.com/gdutra2002/riboxyme/blob/main/LICENSE   <br>
 See MIT license
 
 
 ## Badges
-mit
+https://img.shields.io/github/languages/top/nielsenjared/badmath
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 ![Github license](https://img.shields.io/badge/license-MIT-pink.svg)
 
-## Features
-HTML,github
+### Features
+>
+>* npm inquery,terminal,JavaScript,Node.js
+>
 
 ## How to Contribute
-Prefered method of contact: github.  <br>
+Prefered method of contact: Linked-In.  <br>
 Link to source:
-git    <br>
+https://github.com/gdutra2002    <br>
 Contact author:
-gitmail#git   <br>
+gdutra2002@gmail.com   <br>
 Profile
-yes
+https://linkedin.com/in/gary-e-dutra-15357940
+
+---
+© 2023 MRB Confidential and Proprietary. All Rights Reserved.
+
